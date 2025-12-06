@@ -25,11 +25,13 @@ pip install -r requirements.txt
 ### Basic Usage
 
 #### Run Full Demo
+
 ```bash
 python movie_recommendation_system.py
 ```
 
 #### CLI Mode Examples
+
 ```bash
 # Get hybrid recommendations for user 1
 python movie_recommendation_system.py --user-id 1 --mode hybrid --top-n 5
@@ -47,19 +49,23 @@ python movie_recommendation_system.py --eval --mode hybrid --movielens
 ## 📊 Features
 
 ### Core Algorithms
+
 - **User-Based CF**: Finds k-nearest neighbors among users using cosine similarity
 - **Item-Based CF**: Computes item similarities and recommends based on user's rating history
 - **Hybrid Method**: Weighted combination of user-based and item-based predictions
 
 ### Evaluation Metrics
+
 - **Rating Prediction**: Mean Absolute Error (MAE), Root Mean Square Error (RMSE)
 - **Recommendation Quality**: Precision@K, Recall@K, Normalized Discounted Cumulative Gain (NDCG@K)
 
 ### Datasets
+
 - **Built-in Sample**: 15 popular movies, 8 users, 50 ratings for quick testing
 - **MovieLens 100K**: Real-world dataset with 100,000 ratings, 1,682 movies, 943 users
 
 ### Utilities
+
 - User profile analysis and rating history
 - Similar user/movie discovery
 - Comprehensive similarity matrix computation
@@ -83,6 +89,7 @@ optional arguments:
 ## 📈 Example Output
 
 ### User Profile
+
 ```
 ============================================================
 USER 1 PROFILE
@@ -99,6 +106,7 @@ Rated movies:
 ```
 
 ### Recommendations
+
 ```
 ============================================================
 HYBRID RECOMMENDATIONS FOR USER 1
@@ -112,6 +120,7 @@ Top 5 Recommendations:
 ```
 
 ### Evaluation Metrics
+
 ```
 ============================================================
 EVALUATION RESULTS
@@ -176,6 +185,7 @@ pytest tests/test_recommendations.py
 ## 🔄 Development Roadmap
 
 ### Completed ✅
+
 - [x] User-based and item-based collaborative filtering
 - [x] Hybrid recommendation approach
 - [x] Sample dataset generation
@@ -185,6 +195,7 @@ pytest tests/test_recommendations.py
 - [x] Unit test suite
 
 ### Future Enhancements 🔮
+
 - [ ] Matrix factorization techniques (SVD, NMF)
 - [ ] Deep learning approaches (Neural Collaborative Filtering)
 - [ ] Content-based filtering integration
@@ -217,6 +228,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📧 Contact
 
-Your Name - your.email@example.com
+Mohammed Belmekki - belmekki.meh@gmail.com
 
-Project Link: [https://github.com/yourusername/movie-recommendation-system](https://github.com/yourusername/movie-recommendation-system)
+Project Link: [https://github.com/MohammedBelmekki01/movie-recommendation-system](https://github.com/MohammedBelmekki01/movie-recommendation-system)
