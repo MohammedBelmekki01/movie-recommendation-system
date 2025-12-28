@@ -2,7 +2,7 @@
 
 A comprehensive Python implementation of collaborative filtering algorithms for movie recommendations. This system demonstrates user-based, item-based, and hybrid recommendation approaches with both synthetic and real datasets.
 
-## 🎯 Overview
+##  Overview
 
 This project implements three collaborative filtering techniques:
 
@@ -12,7 +12,7 @@ This project implements three collaborative filtering techniques:
 
 The system uses cosine similarity to compute user-user and item-item relationships, then predicts ratings and generates top-N recommendations.
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Installation
 
@@ -46,7 +46,7 @@ python movie_recommendation_system.py --movielens --user-id 1 --mode item --top-
 python movie_recommendation_system.py --eval --mode hybrid --movielens
 ```
 
-## 📊 Features
+##  Features
 
 ### Core Algorithms
 
@@ -70,7 +70,7 @@ python movie_recommendation_system.py --eval --mode hybrid --movielens
 - Similar user/movie discovery
 - Comprehensive similarity matrix computation
 
-## 🛠️ CLI Reference
+##  CLI Reference
 
 ```
 usage: movie_recommendation_system.py [options]
@@ -86,7 +86,7 @@ optional arguments:
   --eval                Run evaluation metrics on train/test split
 ```
 
-## 📈 Example Output
+##  Example Output
 
 ### User Profile
 
@@ -136,7 +136,7 @@ Recommendation Quality (Top-10):
   NDCG@10: 0.692
 ```
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 movie_recommendation_system.py
@@ -161,7 +161,7 @@ movie_recommendation_system.py
     └── Unified API interface
 ```
 
-## 🧪 Testing
+##  Testing
 
 ```bash
 # Run all tests
@@ -173,7 +173,7 @@ pytest tests/test_predictions.py
 pytest tests/test_recommendations.py
 ```
 
-## 📋 Requirements
+##  Requirements
 
 - Python 3.8+
 - pandas >= 1.5.0
@@ -182,9 +182,9 @@ pytest tests/test_recommendations.py
 - requests >= 2.28.0 (for MovieLens download)
 - pytest >= 7.0.0 (for testing)
 
-## 🔄 Development Roadmap
+##  Development Roadmap
 
-### Completed ✅
+### Completed 
 
 - [x] User-based and item-based collaborative filtering
 - [x] Hybrid recommendation approach
@@ -194,7 +194,7 @@ pytest tests/test_recommendations.py
 - [x] MovieLens 100K integration
 - [x] Unit test suite
 
-### Future Enhancements 🔮
+### Future Enhancements 
 
 - [ ] Matrix factorization techniques (SVD, NMF)
 - [ ] Deep learning approaches (Neural Collaborative Filtering)
@@ -205,7 +205,7 @@ pytest tests/test_recommendations.py
 - [ ] Cold-start problem handling
 - [ ] Bias detection and fairness metrics
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
@@ -215,18 +215,18 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🔗 References
+##  References
 
 - [Collaborative Filtering for Implicit Feedback Datasets](https://ieeexplore.ieee.org/document/4781121)
 - [Item-Based Collaborative Filtering Recommendation Algorithms](https://dl.acm.org/doi/10.1145/371920.372071)
 - [MovieLens Dataset](https://grouplens.org/datasets/movielens/)
 - [Evaluating Recommender Systems](https://link.springer.com/chapter/10.1007/978-0-387-85820-3_8)
 
-## 📧 Contact
+##  Contact
 
 Mohammed Belmekki - belmekki.meh@gmail.com
 
